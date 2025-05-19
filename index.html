@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Loop Version Battleship</title>
+</head>
+<body>
+  <header role="heading">
+        <div>
+            <img  class="img-fluid" src="./image/title (1).png" alt="battleship game title">
+        </div>
+        <div>
+            <a href="#rules"><button type="button">Click button to move to Rules</button></a>
+        </div>
+  </header>
+  <Main role="main">
+    <div class="titles">
+        <h3 style=" float: left;">Player Board</h3>
+        <h3 style="float:right; width: 50%" >Enemy Board</h3>
+    </div>
+    <br>
+    <br>
+    <Div class=container> 
+            <div class="playerBoard"  id="player-board"></div>
+            <div class="enemyBoard" id="enemy-board"></div>
+    </Div>
+    <Div>
+            <div class="list">
+                <h2 id="rules">RULES</h2>
+                 <ol class="">
+                    <li>The computer randomly places the battleship behind one of the gray squares</li>
+                    <li>The player must click on the squares he believes is hidding the battleship.</li>
+                    <li>If the player choices the wrong, square the square will turn red.</li>
+                    <li>If the player picks the correct, square he wins the Game.</li>
+                    <li>The player gets four(4) guesses before he/she loses the game.-GOODLUCK!</li>
+                </ol>
+    </div> 
+  </Div>
+</Main>
+    <script src="./JS/app.js"></script>
+</body>
+</html>
